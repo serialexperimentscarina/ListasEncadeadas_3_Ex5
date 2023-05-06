@@ -13,7 +13,7 @@ public class Cliente {
 	
 	@Override
 	public String toString() {
-		return ("[Cliente " + nome + ", " + idade + " anos, CPF: " + cpf + ", limite de crédito: R$ " + String.format("%,.2f", limiteCredito) + "]");
+		return (cpf + ";" + nome + ";" + idade + ";" + String.format("%,.2f", limiteCredito));
 	}
 
 }
